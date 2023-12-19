@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: 'playfair display', sans-serif;
+}
+
+/* index styling */
+.container{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    background:white;
+    padding: 40px;
+    border-radius: 16px;
+    font-size: larger;
+}
+
+.container :nth-child(1){
+    text-align: center;
+}
+
+.container :nth-child(2) , :nth-child(4){
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.container :nth-child(6) , :nth-child(7){
+    padding: 8px;
+    font-size: medium;
+}
+.container :nth-child(3) , :nth-child(5){
+    border-radius: 5px;
+    padding: 8px;
+}
+/* index styling */
+
+/* reg styling */
+
+.container2{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    border-radius: 16px;
+    background-color: white;
+    padding: 40px;
+    line-height: 30px;
+    font-size: larger;
+}
+
+
+
+.container2 :nth-child(5), :nth-child(7){
+    padding: 1px;
+}
+
+.container2 :nth-child(3), :nth-child(5), :nth-child(7), :nth-child(9), :nth-child(11), :nth-child(13){
+    
+}
+
+/* reg styling */
